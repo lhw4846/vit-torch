@@ -1,10 +1,9 @@
 import torch
-import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
 import cv2
 
-from vit_model import VisionTransformer
+from model import VisionTransformer
 
 
 def preprocess_image(image, transform):

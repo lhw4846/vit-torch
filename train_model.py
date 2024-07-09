@@ -6,7 +6,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from vit_model import VisionTransformer
+from model import VisionTransformer
 
 
 def train(model, train_loader, criterion, optimizer, device, scaler):
